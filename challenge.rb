@@ -8,7 +8,7 @@
 # 33
 # 65.89
 
-# a) You would call name on the objects class, ala "Hello World".class.name
+a) You would call name on the objects class, ala "Hello World".class.name
 
 # Question 2: Booleans
 # What would be the result of executing the below statements
@@ -22,23 +22,24 @@
 # a) It would be true because there is no comparison
 
 # 2.1 Substitue "hello" && 4.5 for 33 && 55 above. What's the output?
-# a) It's true
+a) "It's true"
 # 2.2 Substitue nil && 88 for 33 && 55 above. What's the output?
-# a) It would be false
+a) It would be false
 # 2.4 Substitue 63.4 < 64. What's the output?
-# a) It's true
+a) "It's true"
 
 # Question 3 :Strings
 
 # How would you (Yes, you can look up the String methods!):
 
-# # 3.1. determine if a string is included another another string?
-# a) "string".include?('rin')
+# # 3.1. determine if a string is included another string?
+a) "string".include?('rin')
 # # 3.2. determine if the length of a string?
-# a) "string".length
+a) "string".length
 # # 3.3. Go from the string "eels in my hovercraft" to "fish in my sink" but don't
 # # change the string "eels in my hovercraft"
-# a)
+a) eels = "eels in my hovercraft"
+fish = eels.gsub(/eels/, 'fish').gsub!(/hovercraft/, 'sink')
 
 
 # Question 4 : Variables
@@ -48,13 +49,14 @@
 # # vehicle = "4 wheel Bus"
 
 # # 4.1 to "6 wheel Bus"
-# a) vehicle.gsub(/6/, '4')
+a) vehicle.gsub(/6/, '4')
 # # 4.2 to "6 wheel tank"
 
-# a) vehicle.gsub(/bus/, 'tank')
+a) vehicle.gsub(/bus/, 'tank')
+
 # # 4.3 Create a NEW string from the string in 4.2 that will be
 # # "6 wheel tank that shoots rainbow bunnnies"
-# a) vehicle += "that shoots rainbow bunnies"
+a) vehicle += "that shoots rainbow bunnies"
 
 # Question 5 : Loop
 # - write a loop that guesses your age.
